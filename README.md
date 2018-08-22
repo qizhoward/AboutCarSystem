@@ -17,6 +17,7 @@ design layout...                                                    </br>
 
 >// judge platform                                                 </br>
 >// java or c c++ c#    android or ios                             </br>
+>// judge car starting mode...                                     </br>
 
 >Formal start system                                               </br>
 >Map upgrade update time                                           </br>
