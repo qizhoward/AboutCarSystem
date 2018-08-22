@@ -1,6 +1,6 @@
 # AboutCarSystem
 无人驾驶系统草图
-
+基于有保护装置的保护电路基础之上．．．
 
 >
 >>install system start                                             </br>
@@ -14,7 +14,7 @@
 > Jump first time start System...                                  </br>
 
 >// judge platform                                                 </br>
->// java or c                                                      </br>
+>// java or c c++ c#    android or ios                             </br>
 
 >Formal start system                                               </br>
 >Map upgrade update time                                           </br>
