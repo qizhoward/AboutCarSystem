@@ -1,6 +1,8 @@
 # AboutCarSystem
-无人驾驶系统草图                                                      </br>
-基于有保护装置的保护电路基础之上．．．
+about selfservice nobady car system design the primitive.           </br>
+design layout.                                                      </br>
+无人驾驶系统草图.                                                     </br>
+基于有保护装置的保护电路基础之上．．．                                   </br>
 
 >
 >>install system start                                             </br>
