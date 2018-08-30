@@ -5,8 +5,7 @@ About License Please Go To China Government...                      </br>
 无人驾驶系统草图.                                                     </br>
 基于有保护装置的保护电路基础之上．．．                                   </br>
 类似于特斯拉Tesla导航系统                                              </br>   
-证件许可...                                                          </br>
-
+关于证件许可，请去政府索要，认证                                         </br>
 
 
 >>>>
