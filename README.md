@@ -1,19 +1,19 @@
 # AboutCarSystem
-about selfservice nobady car system design the primitive.           </br>
-design layout...                                                    </br>
-About License Please Go To China Government...                      </br>
-无人驾驶系统草图.                                                     </br>
-基于有保护装置的保护电路基础之上．．．                                   </br>
-类似于特斯拉Tesla导航系统                                              </br>   
-关于证件许可，请去政府索要，认证                                         </br>
+>about selfservice nobady car system design the primitive.           </br>
+>design layout...                                                    </br>
+>About License Please Go To China Government...                      </br>
+>无人驾驶系统草图.                                                     </br>
+>基于有保护装置的保护电路基础之上．．．                                   </br>
+>类似于特斯拉Tesla导航系统                                              </br>   
+>关于证件许可，请去政府索要，认证                                         </br>
 
 
 >>>>
 >>>install system start                                             </br>
->> platform testing  Encoding detection  self test  safe test...  </br>
+>> platform testing  Encoding detection  self test  safe test...  　</br>
 > 
 
-> The system start                                                 </br>
+> The system start                                                 　</br>
 >>//judge how many times start Loop and Jump.                       </br>
 >>// Loop The power test   The grounding end test                   </br>
 >>// The data and file first test                                   </br>
