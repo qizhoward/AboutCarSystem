@@ -29,7 +29,7 @@ _____________________________________________________________________
 >Formal start system                                               </br>
 >Map upgrade update time                                           </br>
 
-—————————————————————————————————————————————————————————————————
+_____________________________________________________________________
 
 >about selfservice nobady car system design the primitive.           </br>
 >design layout...                                                    </br>
