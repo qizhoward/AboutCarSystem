@@ -47,5 +47,5 @@ _____________________________________________________________________
 
 The teacher smile repair bug : )                                      </br>      
 
-                                                                  From yu peng </br>
+                                                                  From yu </br>
                                                                   2018.08.31</br>
