@@ -6,9 +6,11 @@
 >无人驾驶系统草图.                                                     　</br>
 >基于有保护装置的保护电路基础之上．．．                                   　</br>
 >类似于特斯拉Tesla导航系统亦可配和google glass使用                  　     </br>   
->关于证件许可，请去政府索要，认证                                         </br>
+>关于证件许可，请去政府索要，认证                                          </br>
 >或者去警局和驾校                                                      　</br>
-
+>The Last warning I don't work for government for ever.                </br>
+>最后警告，我永远不为政府工作．                                            </br>
+                                                                       </br>
 _____________________________________________________________________
 
 >>>>
@@ -20,7 +22,7 @@ _____________________________________________________________________
 >>//judge how many times start Loop and Jump.                       </br>
 >>// Loop The power test   The grounding end test                   </br>
 >>// The data and file first test                                   </br>
->>> Jump first time start System...                                  </br>
+>>> Jump first time start System...                                 </br>
 
 >// judge platform                                                 </br>
 >// java or c c++ c#    android or ios                             </br>
@@ -40,7 +42,10 @@ _____________________________________________________________________
 >类似于特斯拉Tesla导航系统                                              </br>   
 >关于证件许可，请去政府索要，认证                                         </br>
 >或者去警局和驾校                                                      　</br>
+>The Last warning I don't work for government for ever.                </br>
+>最后警告，我永远不为政府工作．                                            </br>  
 
+The teacher smile repair bug : )                                      </br>      
 
-The teacher say repair bug : ) 
-
+                                                                  From yu peng </br>
+                                                                  2018.08.31</br>
