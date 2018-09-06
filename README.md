@@ -10,7 +10,8 @@
 >或者去警局和驾校                                                      　</br>
 >The Last warning I don't work for government for ever.                </br>
 >最后警告，我永远不为政府工作。                                            </br>
-                                                                       </br>
+>Because Girl And Money                                                </br>
+>因为女人和钱                                                            </br>
 _____________________________________________________________________
 
 >>>>
@@ -43,7 +44,9 @@ _____________________________________________________________________
 >关于证件许可，请去政府索要，认证                                         </br>
 >或者去警局和驾校                                                      　</br>
 >The Last warning I don't work for government for ever.                </br>
->最后警告，我永远不为政府工作。                                            </br>  
+>最后警告，我永远不为政府工作。                                            </br>
+>Because Girl And Money                                                </br>
+>因为女人和钱                                                            </br>
 
 The teacher smile repair bug : )                                      </br>      
 
