@@ -28,7 +28,7 @@ About Library						            </br>
 2.Add the dependency                                               </br>
 
     dependencies {
-	          implementation 'com.github.qizhoward:AboutCarSystem:v1.01'
+	          implementation 'com.github.qizhoward:AboutCarSystem:1.01'
 	  }
 
 
