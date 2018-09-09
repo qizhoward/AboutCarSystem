@@ -10,15 +10,12 @@
 >或者去警局和驾校                                                      　</br>
 >The Last warning I don't work for government for ever.                </br>
 >最后警告，我永远不为政府工作。                                            </br>
->Because Girl And Money                                                </br>
->因为女人和钱                                                            </br>
->Because fuck                                                          </br>
->因为操逼                                                               </br>
+                                                           
 _____________________________________________________________________
 
-About Library
- How to 
-1.Add it in your root build.gradle at the end of repositories:
+About Library						            </br>
+ How to install                                                     </br>
+1.Add it in your root build.gradle at the end of repositories:      </br>
     
     allprojects {
 		  repositories {
@@ -27,7 +24,7 @@ About Library
 		  }
 	  }
 
-2.Add the dependency
+2.Add the dependency                                               </br>
 
     dependencies {
 	          implementation 'com.github.qizhoward:AboutCarSystem:v1.01'
