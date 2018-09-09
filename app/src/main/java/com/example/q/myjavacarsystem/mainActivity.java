@@ -1,6 +1,5 @@
 package com.example.q.myjavacarsystem;
 
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,12 +12,7 @@ import android.widget.Toast;
 import com.example.q.myjavacarsystem.tabtest.Tab01;
 import com.github.clans.fab.FloatingActionMenu;
 
-
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import static android.Manifest.permission.ACCESS_FINE_LOCATION;
-
 
 public class mainActivity extends AppCompatActivity {
 
@@ -93,7 +87,7 @@ public class mainActivity extends AppCompatActivity {
             findViewById(R.id.menu29).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(mainActivity.this.getApplication(), mapdingwei02.class);
+                    Intent intent = new Intent(mainActivity.this.getApplication(), drawmapedit.class);
                     startActivity(intent);
                 }
             });

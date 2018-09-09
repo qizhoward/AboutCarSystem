@@ -56,6 +56,7 @@
     <!--允许程序收到广播后快速收到下一个广播-->
     <!--读取和更改系统设置-->
 
+    <uses-feature android:glEsVersion="0x00030002" android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -70,7 +71,6 @@
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
