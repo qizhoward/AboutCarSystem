@@ -79,10 +79,7 @@ _____________________________________________________________________
 >或者去警局和驾校                                                      　</br>
 >The Last warning I don't work for government for ever.                </br>
 >最后警告，我永远不为政府工作。                                            </br>
->Because Girl And Money                                                </br>
->因为女人和钱                                                            </br>
->Because fuck                                                          </br>
->因为操逼                                                               </br>
+
 
 The teacher smile repair bug : )                                      </br>      
 
