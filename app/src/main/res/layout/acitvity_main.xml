@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.q.myjavacarsystem.mainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/material_theme_current_theme" />
+
+    <Spinner
+        android:id="@+id/fragment_material_theme_spinner_current_theme"
+        style="@style/SpinnerStyle.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#00000000"
+        app:menu_animationDelayPerItem="50"
+        app:menu_colorNormal="#f6c555"
+        app:menu_colorPressed="#FAD689"
+        app:menu_colorRipple="#F6C555"
+        app:menu_fab_size="mini"
+        app:menu_icon="@drawable/ic_fab_star"
+        app:menu_shadowColor="#66000000"
+        app:menu_showShadow="true">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu26"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_add"
+            app:fab_label="添加"
+            app:fab_size="mini"
+            tools:src="@drawable/fab_add" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu25"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_sub"
+            app:fab_label="移除"
+            app:fab_size="mini"
+            tools:src="@drawable/fab_sub" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu24"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            app:fab_label="编辑定位层"
+            app:fab_size="mini"
+            tools:src="@drawable/ic_edit" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu28"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            app:fab_label="定位层1"
+            app:fab_size="mini"
+            tools:src="@drawable/ic_edit" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu29"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            app:fab_label="定位层2"
+            app:fab_size="mini"
+            tools:src="@drawable/ic_edit" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu27"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_test_a"
+            app:fab_label="定时"
+            app:fab_size="mini"
+            tools:src="@drawable/ico_test_a" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu20"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_palette"
+            app:fab_label="主题"
+            app:fab_size="mini"
+            tools:src="@drawable/ic_palette" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu21"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_test_b"
+            app:fab_label="新私信"
+            app:fab_size="mini"
+            tools:src="@drawable/ico_test_b" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu22"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_test_c"
+            app:fab_size="mini"
+            tools:src="@drawable/ico_test_c" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu23"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_test_d"
+            app:fab_size="mini"
+            tools:src="@drawable/ico_test_d" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

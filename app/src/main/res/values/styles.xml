@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_blue_500</item>
+        <item name="colorPrimaryDark">@color/material_blue_500</item>
+        <item name="colorAccent">@color/material_orange_500</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MenuButtonsSmall.Green">
+        <item name="fab_colorNormal">#F6C555</item>
+        <item name="fab_colorPressed">#FAD689</item>
+        <item name="fab_colorRipple">#f1ba3c</item>
+    </style>
+
+    <style name="MenuButtonsSmall">MenuButtonSmall</style>
+
+    <style name="TextStyle.Body2" parent="TextAppearance.AppCompat.Body2">
+    </style>
+
+    <style name="SpinnerStyle.Underlined" parent="Widget.AppCompat.Spinner.Underlined"></style>>
+
+
+
+
+</resources>

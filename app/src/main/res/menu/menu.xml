@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/SDK"
+        android:title="@string/software_development_kit" />
+    <item
+        android:id="@+id/myotherapps"
+        android:title="@string/my_other_apps" />
+    <item
+        android:id="@+id/aboutfriends"
+        android:title="@string/developer_friends" />
+
+
+    <item
+        android:id="@+id/aboutme"
+        android:title="@string/about_me" />
+    <item
+        android:id="@+id/AOV"
+        android:title="@string/about_official_version" />
+    <item
+        android:id="@+id/ATV"
+        android:title="@string/about_this_version" />
+    <item
+        android:id="@+id/ANV"
+        android:title="@string/about_next_version" />
+
+</menu>
