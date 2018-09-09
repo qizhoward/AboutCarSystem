@@ -15,6 +15,7 @@ _____________________________________________________________________
 
 About Library						            </br>
  How to install                                                     </br>
+ 
 1.Add it in your root build.gradle at the end of repositories:      </br>
     
     allprojects {
