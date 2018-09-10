@@ -10,7 +10,7 @@ class drawmapedit extends Activity{
     @Override
     protected void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
         openGLView = (OpenGLView) findViewById(R.id.openGLView);
     }
 

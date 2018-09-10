@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.q.myjavacarsystem.mainActivity" >
+    tools:context="com.example.q.myjavacarsystem.mainActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
 
     <TextView
         android:layout_width="match_parent"
@@ -25,14 +35,17 @@
         android:layout_height="wrap_content"
         android:spinnerMode="dropdown" />
 
+
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/menu2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
         android:background="#00000000"
+        android:visibility="visible"
+        android:layout_above='@+id/navigation'
         app:menu_animationDelayPerItem="50"
         app:menu_colorNormal="#f6c555"
         app:menu_colorPressed="#FAD689"
@@ -104,7 +117,7 @@
             tools:src="@drawable/ico_test_a" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu20"
+            android:id="@+id/menu21"
             style="@style/MenuButtonsSmall.Green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,7 +127,7 @@
             tools:src="@drawable/ic_palette" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu21"
+            android:id="@+id/menu22"
             style="@style/MenuButtonsSmall.Green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -122,15 +135,6 @@
             app:fab_label="新私信"
             app:fab_size="mini"
             tools:src="@drawable/ico_test_b" />
-
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu22"
-            style="@style/MenuButtonsSmall.Green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ico_test_c"
-            app:fab_size="mini"
-            tools:src="@drawable/ico_test_c" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu23"
@@ -142,5 +146,6 @@
             tools:src="@drawable/ico_test_d" />
 
     </com.github.clans.fab.FloatingActionMenu>
+
 
 </RelativeLayout>

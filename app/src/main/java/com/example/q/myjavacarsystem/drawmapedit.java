@@ -10,7 +10,7 @@ class drawmapedit extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tabtest_01);
+        setContentView(R.layout.acitvity_main);
 
 
     }

@@ -23,4 +23,8 @@
     <string name="about_next_version">About Next Version</string>
     <string name="textview">TextView</string>
 
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">指示板</string>
+    <string name="title_notifications">通知</string>
+
 </resources>

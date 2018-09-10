@@ -7,16 +7,20 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.TextView;
 
 import com.example.q.myjavacarsystem.tabtest.Tab01;
 import com.github.clans.fab.FloatingActionMenu;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class mainActivity extends AppCompatActivity {
 
-
+        private TextView mTextMessage;
         FloatingActionMenu menu2;
         private static final int REQUEST_IMAGE = 2;
         private static long lastBackTime = 0;
@@ -28,6 +32,10 @@ public class mainActivity extends AppCompatActivity {
              setContentView(R.layout.acitvity_main);
 
              initView();
+
+             mTextMessage = (TextView) findViewById(R.id.message);
+             BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+             navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         }
         private void initView() {
 
@@ -174,29 +182,27 @@ public class mainActivity extends AppCompatActivity {
 
         }
 
-        @Override
-        protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-             super.onActivityResult(requestCode, resultCode, data);
-             if (requestCode == REQUEST_IMAGE) {
-                  if (resultCode == RESULT_OK) {
+        private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+        = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-                       Uri uri = data.getData();
-                       Intent intent = new Intent();
-                       intent.setAction(android.content.Intent.ACTION_VIEW);
-                       intent.setAction("com.android.camera.action.CROP");
-                       intent.setDataAndType(uri, "image/*");
-                       intent.putExtra("crop", "true");
-                       intent.putExtra("aspectX", 1);// 裁剪框比例
-                       intent.putExtra("aspectY", 1);
-                       intent.putExtra("outputX", 150);// 输出图片大小
-                       intent.putExtra("outputY", 150);
-                       intent.putExtra("return-data", true);
-                       mainActivity.this.startActivityForResult(intent, 200);
-                  }
-             }
-
-        }
-
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.navigation_home:
+                        mTextMessage.setText(R.string.title_home);
+                        return true;
+                    case R.id.navigation_dashboard:
+                        mTextMessage.setText(R.string.title_dashboard);
+                        return true;
+                    case R.id.navigation_notifications:
+                        mTextMessage.setText(R.string.title_notifications);
+                        return true;
+                }
+                return false;
+            }
+        };
 
 
 }
+
+
