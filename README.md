@@ -1,15 +1,15 @@
 # AboutCarSystem
->about selfservice nobady car system design the primitive.           　</br>
->design layout...                                                    　</br>
->About License Please Go To China Government...                      　</br>
-＞OR Go To Police And Car School 　　　　　　　　　　　　　　　　　　　　　　</br>
->无人驾驶系统草图.                                                     　</br>
->基于有保护装置的保护电路基础之上．．．                                   　</br>
->类似于特斯拉Tesla导航系统亦可配和google glass使用                  　     </br>   
->关于证件许可，请去政府索要，认证                                          </br>
->或者去警局和驾校                                                      　</br>
->The Last warning I don't work for government for ever.                </br>
->最后警告，我永远不为政府工作。                                            </br>
+about selfservice nobady car system design the primitive.           　</br>
+design layout...                                                    　</br>
+About License Please Go To China Government...                      　</br>
+OR Go To Police And Car School 　　　　　　　　　　　　　　　　　　　　　　</br>
+无人驾驶系统草图.                                                     　</br>
+基于有保护装置的保护电路基础之上．．．                                   　</br>
+类似于特斯拉Tesla导航系统亦可配和google glass使用                  　     </br>   
+关于证件许可，请去政府索要，认证                                          </br>
+或者去警局和驾校                                                      　</br>
+The Last warning I don't work for government for ever.                </br>
+最后警告，我永远不为政府工作。                                            </br>
                                                            
 _____________________________________________________________________
 
@@ -28,12 +28,23 @@ About Library						            </br>
 2.Add the dependency                                               </br>
 
     dependencies {
-	          implementation 'com.github.qizhoward:AboutCarSystem:v1.01'
+	          implementation 'com.github.qizhoward:AboutCarSystem:1.01'
 	  }
 
 
 
+_____________________________________________________________________________________
 
+## Thanks 感谢     
+
+
+存储库    </br>
+太多了，改天再写
+
+
+
+last edit time：
+2018.09.09
 
 ____________________________________________________________________
 
@@ -57,21 +68,18 @@ ____________________________________________________________________
 
 _____________________________________________________________________
 
->about selfservice nobady car system design the primitive.           </br>
->design layout...                                                    </br>
->About License Please Go To China Government...                      </br>
-＞OR Go To Police And Car School                                     </br>
->无人驾驶系统草图.                                                     </br>
->基于有保护装置的保护电路基础之上．．．                                   </br>
->类似于特斯拉Tesla导航系统                                              </br>   
->关于证件许可，请去政府索要，认证                                         </br>
->或者去警局和驾校                                                      　</br>
->The Last warning I don't work for government for ever.                </br>
->最后警告，我永远不为政府工作。                                            </br>
->Because Girl And Money                                                </br>
->因为女人和钱                                                            </br>
->Because fuck                                                          </br>
->因为操逼                                                               </br>
+about selfservice nobady car system design the primitive.           </br>
+design layout...                                                    </br>
+About License Please Go To China Government...                      </br>
+OR Go To Police And Car School                                     </br>
+无人驾驶系统草图.                                                     </br>
+基于有保护装置的保护电路基础之上．．．                                   </br>
+类似于特斯拉Tesla导航系统                                              </br>   
+关于证件许可，请去政府索要，认证                                         </br>
+或者去警局和驾校                                                      　</br>
+The Last warning I don't work for government for ever.                </br>
+最后警告，我永远不为政府工作。                                            </br>
+
 
 The teacher smile repair bug : )                                      </br>      
 
