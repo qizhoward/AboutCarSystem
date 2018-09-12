@@ -73,7 +73,7 @@ _____________________________________________________________________
 
 							             
 The teacher smile repair bug : )                                      </br>      
-              : )						      </br>
+      keep smile : )						      </br>
 	      
 From yu peng	</br>
      余鹏		</br>
