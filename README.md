@@ -10,7 +10,11 @@ OR Go To Police And Car School 　　　　　　　　　　　　　　　　�
 或者去警局和驾校                                                      　</br>
 The Last warning I don't work for government for ever.                </br>
 最后警告，我永远不为政府工作。                                            </br>
-                                                           
+Because money,Because woman,Because fuck！                      	      </br>
+								      </br>
+								      </br>
+								      </br>
+								      </br>
 _____________________________________________________________________
 
 About Library						            </br>
@@ -79,7 +83,7 @@ OR Go To Police And Car School                                     </br>
 或者去警局和驾校                                                      　</br>
 The Last warning I don't work for government for ever.                </br>
 最后警告，我永远不为政府工作。                                            </br>
-
+Because money,Because woman,Because fuck！                      	      </br>
 
 The teacher smile repair bug : )                                      </br>      
 
