@@ -6,8 +6,7 @@ OR Go To Police And Car School 　　　　　　　　　　　　　　　　�
 无人驾驶系统草图.                                                     　</br>
 基于有保护装置的保护电路基础之上．．．                                   　</br>
 类似于特斯拉Tesla导航系统亦可配和google glass使用                  　     </br>   
-关于证件许可，请去政府索要，认证                                          </br>
-或者去警局和驾校                                                      　</br>
+关于证件许可，请去政府索要，认证或者去警局和驾校                            </br>
 The Last warning I don't work for government for ever.                </br>
 最后警告，我永远不为政府工作。                                            </br>
 Because money,Because woman,Because fuck！                      	      </br>
