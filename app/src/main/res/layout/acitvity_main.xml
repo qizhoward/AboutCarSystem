@@ -6,9 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.q.myjavacarsystem.mainActivity">
 
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
-        android:layout_width="wrap_content"
+        style="?attr/buttonStyle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="?android:attr/windowBackground"
@@ -17,35 +19,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="188dp"
-        android:layout_marginLeft="188dp"
-        android:layout_marginTop="0dp"
-        android:text="@string/material_theme_current_theme" />
-
-    <Spinner
-        android:id="@+id/fragment_material_theme_spinner_current_theme"
-        style="@style/SpinnerStyle.Underlined"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:spinnerMode="dropdown" />
-
-
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/menu2"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_above='@+id/navigation'
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="-1dp"
         android:background="#00000000"
-        android:visibility="visible"
-        android:layout_above='@+id/navigation'
         app:menu_animationDelayPerItem="50"
         app:menu_colorNormal="#f6c555"
         app:menu_colorPressed="#FAD689"
@@ -55,9 +37,16 @@
         app:menu_shadowColor="#66000000"
         app:menu_showShadow="true">
 
-
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu26"
+            android:id="@+id/fab1"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_star"
+            app:fab_size="mini"
+            tools:src="@drawable/ic_fab_star" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab2"
             style="@style/MenuButtonsSmall.Green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,9 +54,8 @@
             app:fab_label="添加"
             app:fab_size="mini"
             tools:src="@drawable/fab_add" />
-
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu25"
+            android:id="@+id/fab3"
             style="@style/MenuButtonsSmall.Green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -75,46 +63,6 @@
             app:fab_label="移除"
             app:fab_size="mini"
             tools:src="@drawable/fab_sub" />
-
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu24"
-            style="@style/MenuButtonsSmall.Green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_edit"
-            app:fab_label="编辑定位层"
-            app:fab_size="mini"
-            tools:src="@drawable/ic_edit" />
-
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu28"
-            style="@style/MenuButtonsSmall.Green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_edit"
-            app:fab_label="定位层1"
-            app:fab_size="mini"
-            tools:src="@drawable/ic_edit" />
-
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu29"
-            style="@style/MenuButtonsSmall.Green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_edit"
-            app:fab_label="定位层2"
-            app:fab_size="mini"
-            tools:src="@drawable/ic_edit" />
-
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu27"
-            style="@style/MenuButtonsSmall.Green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ico_test_a"
-            app:fab_label="定时"
-            app:fab_size="mini"
-            tools:src="@drawable/ico_test_a" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu21"
@@ -125,17 +73,16 @@
             app:fab_label="主题"
             app:fab_size="mini"
             tools:src="@drawable/ic_palette" />
-
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu22"
             style="@style/MenuButtonsSmall.Green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ico_test_b"
+            app:elevation="0dp"
             app:fab_label="新私信"
             app:fab_size="mini"
             tools:src="@drawable/ico_test_b" />
-
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu23"
             style="@style/MenuButtonsSmall.Green"
@@ -144,8 +91,27 @@
             android:src="@drawable/ico_test_d"
             app:fab_size="mini"
             tools:src="@drawable/ico_test_d" />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu24"
+            style="@style/MenuButtonsSmall.Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            app:fab_label="编辑定位层"
+            app:fab_size="mini"
+            tools:src="@drawable/ic_edit" />
+        <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/menu25"
+        style="@style/MenuButtonsSmall.Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ico_test_a"
+        app:fab_label="定时"
+        app:fab_size="mini"
+        tools:src="@drawable/ico_test_a" />
 
     </com.github.clans.fab.FloatingActionMenu>
+
 
 
 </RelativeLayout>

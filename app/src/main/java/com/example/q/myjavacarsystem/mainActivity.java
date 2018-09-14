@@ -2,16 +2,15 @@ package com.example.q.myjavacarsystem;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.TextView;
 
-import com.example.q.myjavacarsystem.tabtest.Tab01;
+import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -22,6 +21,10 @@ public class mainActivity extends AppCompatActivity {
 
         private TextView mTextMessage;
         FloatingActionMenu menu2;
+        private GLSurfaceView mGLView;
+        private FloatingActionButton fab1;
+        private FloatingActionButton fab2;
+        private FloatingActionButton fab3;
         private static final int REQUEST_IMAGE = 2;
         private static long lastBackTime = 0;
         private final int BACK_INTERVAL = 1000;
@@ -38,7 +41,6 @@ public class mainActivity extends AppCompatActivity {
              navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         }
         private void initView() {
-
             findViewById(R.id.menu21).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -48,6 +50,7 @@ public class mainActivity extends AppCompatActivity {
             findViewById(R.id.menu22).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+
                     }
             });
             findViewById(R.id.menu23).setOnClickListener(new View.OnClickListener() {
@@ -71,32 +74,25 @@ public class mainActivity extends AppCompatActivity {
 
                 }
             });
-            findViewById(R.id.menu26).setOnClickListener(new View.OnClickListener() {
+
+            findViewById(R.id.fab1).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
 
                 }
             });
-            findViewById(R.id.menu27).setOnClickListener(new View.OnClickListener() {
+
+            findViewById(R.id.fab2).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
-
+                    fab2.setVisibility(View.GONE);
                 }
             });
-            findViewById(R.id.menu28).setOnClickListener(new View.OnClickListener() {
+            findViewById(R.id.fab3).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(mainActivity.this.getApplication(), Tab01.class);
-                    startActivity(intent);
-                }
-            });
-            findViewById(R.id.menu29).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent = new Intent(mainActivity.this.getApplication(), drawmapedit.class);
-                    startActivity(intent);
+                    fab3.setVisibility(View.VISIBLE);
                 }
             });
         }
@@ -184,7 +180,6 @@ public class mainActivity extends AppCompatActivity {
 
         private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
         = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
@@ -201,8 +196,6 @@ public class mainActivity extends AppCompatActivity {
                 return false;
             }
         };
-
-
 }
 
 
