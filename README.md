@@ -1,16 +1,19 @@
 # AboutCarSystem
 about selfservice nobady car system design the primitive.           　</br>
 design layout...                                                    　</br>
-About License Please Go To China Government...                      　</br>
-OR Go To Police And Car School 　　　　　　　　　　　　　　　　　　　　　　</br>
+About License Please Go To （China） Government...                     </br>
+OR Go To Police And Car School 　　　　　　　　　　　　　　　　　　　　　　 </br>
 无人驾驶系统草图.                                                     　</br>
 基于有保护装置的保护电路基础之上．．．                                   　</br>
 类似于特斯拉Tesla导航系统亦可配和google glass使用                  　     </br>   
-关于证件许可，请去政府索要，认证                                          </br>
-或者去警局和驾校                                                      　</br>
-The Last warning I don't work for government for ever.                </br>
+关于证件许可，请去（中国）政府索要，认证或者去警局和驾校                     </br>
+The Last warning I don't work for government for ever.               </br>
 最后警告，我永远不为政府工作。                                            </br>
-                                                           
+Because money,Because woman,Because fuck！                      	     </br>
+因为钱，因为女人，因为操逼！ 						    </br>
+								      </br>
+								      </br>
+								      </br>
 _____________________________________________________________________
 
 About Library						            </br>
@@ -66,22 +69,11 @@ ____________________________________________________________________
 >Formal start system                                               </br>
 >Map upgrade update time                                           </br>
 
-_____________________________________________________________________
-
-about selfservice nobady car system design the primitive.           </br>
-design layout...                                                    </br>
-About License Please Go To China Government...                      </br>
-OR Go To Police And Car School                                     </br>
-无人驾驶系统草图.                                                     </br>
-基于有保护装置的保护电路基础之上．．．                                   </br>
-类似于特斯拉Tesla导航系统                                              </br>   
-关于证件许可，请去政府索要，认证                                         </br>
-或者去警局和驾校                                                      　</br>
-The Last warning I don't work for government for ever.                </br>
-最后警告，我永远不为政府工作。                                            </br>
-
-
+_____________________________________________________________________							             
 The teacher smile repair bug : )                                      </br>      
+      keep smile : )						      </br>
 
-                                                                  From yu peng
-                                                                  2018.08.31
+
+From yu peng	</br>
+   余鹏		</br>
+2018.08.31	</br>
