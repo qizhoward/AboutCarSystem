@@ -13,7 +13,6 @@ Because money,Because woman,Because fuck！                      	     </br>
 因为钱，因为女人，因为操逼！ 						    </br>
 								      </br>
 								      </br>
-								      </br>
 _____________________________________________________________________
 
 About Library						            </br>
@@ -36,20 +35,30 @@ About Library						            </br>
 
 
 
-_____________________________________________________________________________________
+_________________________________________________________________________________________________________
 
 ## Thanks 感谢     
 
+官方教程https://developer.android.com/training/graphics/opengl/environment     
+及百度地图教程							</br>
 
-存储库    </br>
-太多了，改天再写
 
+The Dependency 						     </br>
 
+	dependencies {
+		implementation 'com.github.clans:fab:1.6.4'
+		implementation 'com.alespero:expandable-cardview:0.8'
+    		implementation 'com.google.android.material:material:1.0.0-alpha1'
+    		testImplementation 'junit:junit:4.12'
+    		implementation files('libs/BaiduLBS_Android.jar')
+       		implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+		}
+		
 
 last edit time：
 2018.09.09
 
-____________________________________________________________________
+_______________________________________________________________________________________________________
 
 >>>>
 >>>install system start                                             </br>
@@ -69,7 +78,8 @@ ____________________________________________________________________
 >Formal start system                                               </br>
 >Map upgrade update time                                           </br>
 
-_____________________________________________________________________							             
+_________________________________________________________________________________________________________
+
 The teacher smile repair bug : )                                      </br>      
       keep smile : )						      </br>
 
