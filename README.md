@@ -49,9 +49,9 @@ The Dependency 						     </br>
 		implementation 'com.github.clans:fab:1.6.4'
 		implementation 'com.alespero:expandable-cardview:0.8'
 		implementation 'com.google.android.material:material:1.0.0-alpha1'
-    		testImplementation 'junit:junit:4.12'
-    		implementation files('libs/BaiduLBS_Android.jar')
-       		implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+		testImplementation 'junit:junit:4.12'
+		implementation files('libs/BaiduLBS_Android.jar')
+		implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 	}
 		
 
