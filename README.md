@@ -52,7 +52,7 @@ The Dependency 						     </br>
     		testImplementation 'junit:junit:4.12'
     		implementation files('libs/BaiduLBS_Android.jar')
        		implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-		}
+	}
 		
 
 last edit time：
