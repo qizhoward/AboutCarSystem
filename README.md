@@ -11,9 +11,15 @@ OR Go To Police And Car School 　　　　　　　　　　　　　　　　�
 The Last warning I don't work for government for ever.                  </br>
 最后警告，我永远不为政府工作。                                             </br>
 Because money,Because woman,Because fuck！                      	       </br>
-因为钱，因为女人，因为操逼！ 						     </br>
+因为钱，因为女人，因为操逼！                                            　</br>
+									</br>
+									</br>
+									</br>
+	补充:中国政府以刘学军为代表的均不管				　</br>
 								        </br>
 								        </br>
+									</br>
+									
 _____________________________________________________________________
 
 About Library						            </br>
