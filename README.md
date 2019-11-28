@@ -103,3 +103,13 @@ nav　有道词典翻译没包含卫星,直接翻译为导航　</br>
 2018.08.31	</br>
 2019.03.20 14:04pm </br> 
 2019.04.26 00:58AM 24:58AM 凌晨</br>
+
+  Because Chinese prince, Queen Mother, Xi Jinping, Peng Liyuan,                            </br>
+  I choose to keep the algorithm secret, and the algorithm is kept secret forever.          </br>
+  因为中国皇子,皇妈,习近平,彭丽媛,我选择将算法保密,程序算法永久保密.                              </br>
+
+2019.11.28 13:40PM  </br>
+
+
+
+
