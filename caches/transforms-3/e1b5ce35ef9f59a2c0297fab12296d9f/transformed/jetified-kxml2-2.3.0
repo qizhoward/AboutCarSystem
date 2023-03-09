@@ -1,0 +1,15 @@
+org.kxml2.io.KXmlParser
+org.kxml2.io.KXmlSerializer
+org.kxml2.kdom.Document
+org.kxml2.kdom.Element
+org.kxml2.kdom.Node
+org.kxml2.wap.Wbxml
+org.kxml2.wap.WbxmlParser
+org.kxml2.wap.WbxmlSerializer
+org.kxml2.wap.syncml.SyncML
+org.kxml2.wap.wml.Wml
+org.kxml2.wap.wv.WV
+org.xmlpull.v1.XmlPullParser
+org.xmlpull.v1.XmlPullParserException
+org.xmlpull.v1.XmlPullParserFactory
+org.xmlpull.v1.XmlSerializer

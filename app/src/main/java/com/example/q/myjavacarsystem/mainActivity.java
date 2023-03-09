@@ -1,5 +1,7 @@
 package com.example.q.myjavacarsystem;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.opengl.GLSurfaceView;
@@ -10,12 +12,12 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class mainActivity extends AppCompatActivity {
 
@@ -28,11 +30,21 @@ public class mainActivity extends AppCompatActivity {
         private static final int REQUEST_IMAGE = 2;
         private static long lastBackTime = 0;
         private final int BACK_INTERVAL = 1000;
+        private Context mContext;
 
+
+
+        @SuppressLint("MissingInflatedId")
         @Override
         protected void onCreate(Bundle savedInstanceState) {
              super.onCreate(savedInstanceState);
              setContentView(R.layout.acitvity_main);
+             mContext = this;
+
+
+
+
+
 
              initView();
 
@@ -41,6 +53,8 @@ public class mainActivity extends AppCompatActivity {
              navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         }
         private void initView() {
+
+
             findViewById(R.id.menu21).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -96,6 +110,14 @@ public class mainActivity extends AppCompatActivity {
                 }
             });
         }
+
+
+
+
+
+
+
+
 
         @Override
         public void onBackPressed() {
