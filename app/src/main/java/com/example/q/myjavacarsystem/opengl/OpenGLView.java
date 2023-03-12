@@ -20,7 +20,7 @@ public class OpenGLView extends GLSurfaceView {
     }
 
     private void init() {
-        setEGLContextClientVersion(2);
+        setEGLContextClientVersion(3);
         setPreserveEGLContextOnPause(true);
         setRenderer(new OpenGLRenderer());
     }

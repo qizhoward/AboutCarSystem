@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.q.myjavacarsystem.opengl.OpenGLView;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -31,7 +32,7 @@ public class mainActivity extends AppCompatActivity {
         private static long lastBackTime = 0;
         private final int BACK_INTERVAL = 1000;
         private Context mContext;
-
+        private OpenGLView openGLView;
 
 
         @SuppressLint("MissingInflatedId")
@@ -43,7 +44,7 @@ public class mainActivity extends AppCompatActivity {
 
 
 
-
+             openGLView = (OpenGLView)findViewById(R.id.openGLView3);
 
 
              initView();
@@ -218,6 +219,18 @@ public class mainActivity extends AppCompatActivity {
                 return false;
             }
         };
+
+
+        @Override
+        protected void onResume(){
+            super.onResume();
+            openGLView.onResume();
+        }
+        @Override
+        protected void onPause(){
+            super.onPause();
+            openGLView.onPause();
+        }
 }
 
 
