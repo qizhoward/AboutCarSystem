@@ -47,6 +47,7 @@ public class mainActivity extends AppCompatActivity {
              openGLView = (OpenGLView)findViewById(R.id.openGLView3);
 
 
+
              initView();
 
              mTextMessage = (TextView) findViewById(R.id.message);

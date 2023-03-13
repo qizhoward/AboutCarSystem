@@ -10,11 +10,13 @@ public class OpenGLRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-        GLES30.glClearColor(1.0f,0,0,1f);
+        GLES30.glClearColor(0.0f,0f,0f,1f);
+
     }
 
     @Override
-    public void onSurfaceChanged(GL10 gl10 , int i, int i1) {
+    public void onSurfaceChanged(GL10 gl , int width, int height) {
+        GLES30.glViewport(0,0,width,height);
 
     }
     @Override
