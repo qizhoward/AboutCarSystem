@@ -1,24 +1,26 @@
 package com.example.q.myjavacarsystem;
 
 import android.annotation.SuppressLint;
+import android.app.ActivityManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ConfigurationInfo;
 import android.net.Uri;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.q.myjavacarsystem.opengl.OpenGLRenderer;
 import com.example.q.myjavacarsystem.opengl.OpenGLView;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class mainActivity extends AppCompatActivity {
 
@@ -33,7 +35,7 @@ public class mainActivity extends AppCompatActivity {
         private final int BACK_INTERVAL = 1000;
         private Context mContext;
         private OpenGLView openGLView;
-
+        private OpenGLRenderer mRenderer;
 
         @SuppressLint("MissingInflatedId")
         @Override
@@ -47,12 +49,35 @@ public class mainActivity extends AppCompatActivity {
              openGLView = (OpenGLView)findViewById(R.id.openGLView3);
 
 
+            final ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+            final ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();
+            final boolean supportsEs2 = configurationInfo.reqGlEsVersion >= 0x20000;
+
+            if (supportsEs2)
+            {
+                // Request an OpenGL ES 2.0 compatible context.
+                openGLView.setEGLContextClientVersion(2);
+
+                final DisplayMetrics displayMetrics = new DisplayMetrics();
+                getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+
+                // Set the renderer to our demo renderer, defined below.
+                mRenderer = new OpenGLRenderer(this);
+                openGLView.setRenderer(mRenderer, displayMetrics.density);
+            }
+            else
+            {
+                // This is where you could create an OpenGL ES 1.x compatible
+                // renderer if you wanted to support both ES 1 and ES 2.
+                return;
+            }
+
+
 
              initView();
 
-             mTextMessage = (TextView) findViewById(R.id.message);
-             BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-             navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+
         }
         private void initView() {
 
@@ -202,24 +227,7 @@ public class mainActivity extends AppCompatActivity {
 
         }
 
-        private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-        = new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.navigation_home:
-                        mTextMessage.setText(R.string.title_home);
-                        return true;
-                    case R.id.navigation_dashboard:
-                        mTextMessage.setText(R.string.title_dashboard);
-                        return true;
-                    case R.id.navigation_notifications:
-                        mTextMessage.setText(R.string.title_notifications);
-                        return true;
-                }
-                return false;
-            }
-        };
+
 
 
         @Override
