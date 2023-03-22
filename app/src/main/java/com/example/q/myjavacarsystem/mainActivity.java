@@ -1,5 +1,7 @@
 package com.example.q.myjavacarsystem;
 
+import static com.example.q.myjavacarsystem.R.id.*;
+
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.content.Context;
@@ -21,6 +23,7 @@ import com.example.q.myjavacarsystem.opengl.OpenGLRenderer;
 import com.example.q.myjavacarsystem.opengl.OpenGLView;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
+
 
 public class mainActivity extends AppCompatActivity {
 
@@ -46,8 +49,7 @@ public class mainActivity extends AppCompatActivity {
 
 
 
-             openGLView = (OpenGLView)findViewById(R.id.openGLView3);
-
+             openGLView = (OpenGLView)findViewById(R.id.openGLView2);
 
             final ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
             final ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();
@@ -57,7 +59,6 @@ public class mainActivity extends AppCompatActivity {
             {
                 // Request an OpenGL ES 2.0 compatible context.
                 openGLView.setEGLContextClientVersion(2);
-
                 final DisplayMetrics displayMetrics = new DisplayMetrics();
                 getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
 
@@ -73,7 +74,6 @@ public class mainActivity extends AppCompatActivity {
             }
 
 
-
              initView();
 
 
@@ -82,33 +82,34 @@ public class mainActivity extends AppCompatActivity {
         private void initView() {
 
 
-            findViewById(R.id.menu21).setOnClickListener(new View.OnClickListener() {
+            findViewById(menu21).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    Intent intent = new Intent(mainActivity.this.getApplication(), SettingsActivity.class);
+                    startActivity(intent);
                 }
             });
-            findViewById(R.id.menu22).setOnClickListener(new View.OnClickListener() {
+            findViewById(menu22).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
                     }
             });
-            findViewById(R.id.menu23).setOnClickListener(new View.OnClickListener() {
+            findViewById(menu23).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
 
                 }
             });
-            findViewById(R.id.menu24).setOnClickListener(new View.OnClickListener() {
+            findViewById(menu24).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(mainActivity.this.getApplication(), maptest.class);
                     startActivity(intent);
                 }
             });
-            findViewById(R.id.menu25).setOnClickListener(new View.OnClickListener() {
+            findViewById(menu25).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
@@ -122,7 +123,6 @@ public class mainActivity extends AppCompatActivity {
 
                 }
             });
-
             findViewById(R.id.fab2).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -180,43 +180,46 @@ public class mainActivity extends AppCompatActivity {
             {
 
                 //TODO: the menu title and setting
-                case R.id.SDK :
+
+
+
+                case SDK :
                     Uri sdk = Uri.parse("https://github.com/qizhoward/AboutCarSystem/edit/master/README.md");
                     Intent sd = new Intent(Intent.ACTION_VIEW, sdk);
                     startActivity(sd);
                     break;
 
-                case R.id.aboutme :
+                case aboutme :
                     Uri uri = Uri.parse("https://github.com/qizhoward");
                     Intent it = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(it);
                     break;
 
-                case R.id.aboutfriends :
+                case aboutfriends :
                     Uri az = Uri.parse("https://user.qzone.qq.com/1152629941/main");
                      Intent Zone = new Intent(Intent.ACTION_VIEW,az);
                     startActivity(Zone);
                     break;
 
-                case R.id.myotherapps:
+                case myotherapps:
                     Uri ap = Uri.parse("https://github.com/qizhoward?tab=repositories");
                     Intent i = new Intent(Intent.ACTION_VIEW, ap);
                     startActivity(i);
                     break;
 
-                case R.id.AOV:
+                case AOV:
                     Uri aov = Uri.parse("https://github.com/qizhoward?tab=repositories");
                     Intent o = new Intent(Intent.ACTION_VIEW, aov);
                     startActivity(o);
                 break;
 
-                case R.id.ATV:
+                case ATV:
                     Uri atv = Uri.parse("https://github.com/qizhoward?tab=repositories");
                     Intent t = new Intent(Intent.ACTION_VIEW, atv);
                     startActivity(t);
                     break;
 
-                case R.id.ANV:
+                case ANV:
                     Uri anv = Uri.parse("https://github.com/qizhoward?tab=repositories");
                     Intent n = new Intent(Intent.ACTION_VIEW, anv);
                     startActivity(n);
@@ -233,12 +236,12 @@ public class mainActivity extends AppCompatActivity {
         @Override
         protected void onResume(){
             super.onResume();
-            openGLView.onResume();
+
         }
         @Override
         protected void onPause(){
             super.onPause();
-            openGLView.onPause();
+
         }
 }
 
