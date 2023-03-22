@@ -3,12 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".notificationsFragment">
+    tools:context=".ui.notificationsFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="第三页"
-        android:textColor="@color/colorBackgroundDark"/>
+        android:text="Hello" />
 
 </FrameLayout>

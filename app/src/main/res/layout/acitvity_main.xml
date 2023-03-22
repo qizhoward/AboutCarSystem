@@ -7,17 +7,13 @@
     tools:context="com.example.q.myjavacarsystem.mainActivity">
 
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="androidx.navigation.fragment.NavHostFragment"
+    <com.example.q.myjavacarsystem.opengl.OpenGLView
+        android:id="@+id/openGLView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/navigation" />
+        android:layout_height="match_parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
-        style="?attr/buttonStyle"
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:layout_alignParentBottom="true"
@@ -25,13 +21,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation" >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
-    <com.example.q.myjavacarsystem.opengl.OpenGLView
-        android:id="@+id/openGLView3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
     <Switch
         android:id="@+id/switch1"
@@ -42,10 +36,11 @@
         android:text="bluetooth"
         android:textColor="@color/colorBackgroundDark"
         android:textColorHint="@color/colorBackgroundDark" />
+
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/menu2"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
         android:layout_above='@+id/navigation'
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="0dp"
@@ -68,6 +63,7 @@
             android:src="@drawable/ic_fab_star"
             app:fab_size="mini"
             tools:src="@drawable/ic_fab_star" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab2"
             style="@style/MenuButtonsSmall.Green"
@@ -77,6 +73,7 @@
             app:fab_label="添加"
             app:fab_size="mini"
             tools:src="@drawable/fab_add" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab3"
             style="@style/MenuButtonsSmall.Green"
@@ -96,6 +93,7 @@
             app:fab_label="主题"
             app:fab_size="mini"
             tools:src="@drawable/ic_palette" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu22"
             style="@style/MenuButtonsSmall.Green"
@@ -106,6 +104,7 @@
             app:fab_label="新私信"
             app:fab_size="mini"
             tools:src="@drawable/ico_test_b" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu23"
             style="@style/MenuButtonsSmall.Green"
@@ -114,6 +113,7 @@
             android:src="@drawable/ico_test_d"
             app:fab_size="mini"
             tools:src="@drawable/ico_test_d" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu24"
             style="@style/MenuButtonsSmall.Green"
@@ -123,6 +123,7 @@
             app:fab_label="编辑定位层"
             app:fab_size="mini"
             tools:src="@drawable/ic_edit" />
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu25"
             style="@style/MenuButtonsSmall.Green"
@@ -134,8 +135,6 @@
             tools:src="@drawable/ico_test_a" />
 
     </com.github.clans.fab.FloatingActionMenu>
-
-
 
 
 </RelativeLayout>

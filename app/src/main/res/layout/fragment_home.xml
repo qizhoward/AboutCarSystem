@@ -3,11 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homeFragment">
+    tools:context="ui.homeFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="第一页" />
+
+    <com.example.q.myjavacarsystem.opengl.OpenGLView
+        android:id="@+id/openGLView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 
 </FrameLayout>
